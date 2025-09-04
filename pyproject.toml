@@ -6,15 +6,15 @@ build-backend = "hatchling.build"
 name = "DEFAULT_PKG"
 version = "0.0.0"
 authors = [
-  { name="Ishan Gaur", email="DEFAULT_EMAIL" },
+  { name="Ishan Gaur", email="ishangaur4@gmail.com" },
 ]
-description = "DEFAULT"
+description = "Trying to help the neural network denoiser learn consistent conditionals"
 readme = "README.md"
-requires-python = ">=3.DEFAULT_VERSION"
+requires-python = ">=3.12"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 
 [project.urls]
-Homepage = "https://github.com/ishan-gaur/DEFAULT_REPO_NAME"
+Homepage = "https://github.com/ishan-gaur/consistency-loss"
