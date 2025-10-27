@@ -1,7 +1,22 @@
-name: consistency
+name: base
 channels:
   - conda-forge
 dependencies:
   - python=3.12
+  - pip
+  - conda[version='>=24.7.1']
+  - mamba[version='>=1.5.9']
   - ipykernel
-prefix: /home/ishan/miniforge3/envs/consistency
+  - fire
+  - ca-certificates
+  - certifi
+  - openssl
+  - python-dotenv
+  - bokeh
+  - colorcet
+  - datashader
+  - holoviews
+  - matplotlib
+  - pandas
+  - scikit-image
+prefix: /home/ishan/miniforge3
